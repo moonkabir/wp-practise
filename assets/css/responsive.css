@@ -1,0 +1,16 @@
+/* Ipad Pro */
+@media (min-width: 992px) and (max-width: 1199px) {}
+/* Ipad */
+@media (min-width: 768px) and (max-width: 991px) {}
+/* mobile */
+@media (max-width: 480px) {}
+/* iphone 6/7/8 plus  */
+@media(min-width:400px) and (max-width: 450px) {}
+/* iphone 6/7/8 and iponex  */
+@media(min-width:370px) and (max-width: 400px) {}
+/* andriod phone */
+@media (min-width:340px) and (max-width: 370px) {}
+/* iphone 5 */
+@media (max-width: 340px) {}
+/* for internate explorer */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}

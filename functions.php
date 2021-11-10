@@ -20,7 +20,7 @@ function wp_practise_enqueue_scripts() {
 	wp_register_style( 'style-css', get_stylesheet_uri(), [], filemtime( get_template_directory() . '/style.css' ), 'all' );
 	wp_register_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.min.css', [], false, 'all' );
 	wp_register_style( 'fontawesome-css', get_template_directory_uri() . '/assets/css/all.min.css', [], false, 'all' );
-	wp_register_style( 'responsive-css', get_template_directory_uri() . '/assets/css/responsive.min.css', [], false, 'all' );
+	wp_register_style( 'responsive-css', get_template_directory_uri() . '/assets/css/responsive.css', [], false, 'all' );
 
 	// Register scripts.
 	wp_register_script( 'main-js', get_template_directory_uri() . '/assets/main.js', [], filemtime( get_template_directory() . '/assets/js/main.js' ), true );

@@ -12,10 +12,16 @@ class PRACTISE_THEME{
     use Singleton;
 
     protected function __construct(){
-        wp_die("hello");
         // load Class
-        $this->set_hooks();
+        $this->setup_hooks();
     }
 
-    protected function set_hooks(){}
+    protected function setup_hooks(){
+        /*
+        * Actions
+        */
+
+        assets::get_instance();
+    }
+
 }

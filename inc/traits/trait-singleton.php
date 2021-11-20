@@ -38,16 +38,12 @@ trait Singleton
      * this trait. This is ideal for doing stuff that you only want to
      * do once, such as hooking into actions and filters, etc.
      */
-    protected function __construct()
-    {
-    }
+    protected function __construct(){}
 
     /**
      * Prevent object cloning
      */
-    final protected function __clone()
-    {
-    }
+    final protected function __clone(){}
 
     /**
      * This method returns new or existing Singleton instance

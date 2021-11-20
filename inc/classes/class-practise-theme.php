@@ -27,5 +27,13 @@ class PRACTISE_THEME{
 
     public function setup_theme(){
         add_theme_support('title-tag');
+        
+        add_theme_support('custom-logo', array(
+            'header-text'          => ['site-title', 'site-description'],
+            'height'               => 100,
+            'width'                => 400,
+            'flex-height'          => true,
+            'flex-width'           => true,
+        ));
     }
 }

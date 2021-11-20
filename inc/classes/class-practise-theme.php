@@ -35,5 +35,11 @@ class PRACTISE_THEME{
             'flex-height'          => true,
             'flex-width'           => true,
         ));
+
+        add_theme_support('custom-background', array(
+            'default-image'          => '',
+            'default-color'          => '#fff',
+            'default-repeat'          => 'no-repeat',
+        ));
     }
 }

@@ -13,7 +13,9 @@ class PRACTISE_THEME{
 
     protected function __construct(){
         // load Class
-        assets::get_instance();
+        Assets::get_instance();
+        Menus::get_instance();
+
         $this->setup_hooks();
     }
 

@@ -9,7 +9,7 @@
 namespace PRACTISE_THEME\Inc;
 use PRACTISE_THEME\Inc\Traits\Singleton;
 
-class assets{
+class Assets{
     use Singleton;
 
     protected function __construct(){

@@ -6,6 +6,16 @@
  * @package Aquila
  */
 
+$menu_class = \PRACTISE_THEME\Inc\Menus::get_instance();
+$header_menu_id = $menu_class->get_menu_id('practise_Header_menu');
+
+$header_menu = wp_get_nav_menu_items($header_menu_id);
+
+echo '<pre>';
+print_r($header_menu);
+wp_die();
+
+// here you get menu_item_parent, title, url, menu_order a lot of things
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
